@@ -1,0 +1,28 @@
+2025-05-28 10:26:40,863 INFO    MainThread:3060 [wandb_setup.py:_flush():69] Unhandled environment var: WANDB_DISABLED
+2025-05-28 10:26:40,863 INFO    MainThread:3060 [wandb_setup.py:_flush():69] setting env: {'mode': 'dryrun'}
+2025-05-28 10:26:40,863 INFO    MainThread:3060 [wandb_init.py:_log_setup():336] Logging user logs to D:\PyCharm Community Edition 2023.2.3\pythonProject\CENet - 2\CENet-main\wandb\offline-run-20250528_102640-7ws5caye\logs\debug.log
+2025-05-28 10:26:40,863 INFO    MainThread:3060 [wandb_init.py:_log_setup():337] Logging internal logs to D:\PyCharm Community Edition 2023.2.3\pythonProject\CENet - 2\CENet-main\wandb\offline-run-20250528_102640-7ws5caye\logs\debug-internal.log
+2025-05-28 10:26:40,864 INFO    MainThread:3060 [wandb_init.py:init():369] calling init triggers
+2025-05-28 10:26:40,864 INFO    MainThread:3060 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {}
+2025-05-28 10:26:40,864 INFO    MainThread:3060 [wandb_init.py:init():418] starting backend
+2025-05-28 10:26:40,864 INFO    MainThread:3060 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=spawn, using: spawn
+2025-05-28 10:26:40,866 INFO    MainThread:3060 [backend.py:ensure_launched():123] starting backend process...
+2025-05-28 10:26:40,906 INFO    MainThread:3060 [backend.py:ensure_launched():127] started backend process with pid: 14924
+2025-05-28 10:26:40,907 INFO    MainThread:3060 [wandb_init.py:init():423] backend started and connected
+2025-05-28 10:26:40,908 INFO    MainThread:3060 [wandb_init.py:init():463] updated telemetry
+2025-05-28 10:26:40,909 INFO    MainThread:3060 [wandb_init.py:init():520] starting run threads in backend
+2025-05-28 10:26:41,494 INFO    MainThread:3060 [wandb_run.py:_console_start():1524] atexit reg
+2025-05-28 10:26:41,494 INFO    MainThread:3060 [wandb_run.py:_redirect():1371] redirect: SettingsConsole.WRAP
+2025-05-28 10:26:41,495 INFO    MainThread:3060 [wandb_run.py:_redirect():1414] Wrapping output streams.
+2025-05-28 10:26:41,495 INFO    MainThread:3060 [wandb_run.py:_redirect():1438] Redirects installed.
+2025-05-28 10:26:41,495 INFO    MainThread:3060 [wandb_init.py:init():544] run started, returning control to user process
+2025-05-28 10:26:41,501 INFO    MainThread:3060 [wandb_run.py:_config_callback():749] config_cb None None {'dataset': 'mosei', 'data_path': './dataset/MOSEI_16_sentilare_unaligned_data.pkl', 'max_seq_length': 50, 'train_batch_size': 64, 'dev_batch_size': 64, 'test_batch_size': 64, 'n_epochs': 20, 'beta_shift': 1.0, 'dropout_prob': 0.5, 'model': 'roberta-base', 'model_name_or_path': 'D:/PyCharm Community Edition 2023.2.3/pythonProject/CENet - data/CENet-main/pretrained_model/sentilare_model/', 'learning_rate': 6e-05, 'weight_decay': 0, 'gradient_accumulation_step': 1, 'test_step': 20, 'max_grad_norm': 2, 'warmup_proportion': 0.4, 'seed': 6758, 'adam_epsilon': 1e-08}
+2025-05-28 10:27:01,635 INFO    MainThread:3060 [wandb_run.py:_atexit_cleanup():1494] got exitcode: 1
+2025-05-28 10:27:01,635 INFO    MainThread:3060 [wandb_run.py:_restore():1466] restore
+2025-05-28 10:27:01,642 INFO    MainThread:3060 [wandb_run.py:_wait_for_finish():1616] got exit ret: 
+2025-05-28 10:27:01,752 INFO    MainThread:3060 [wandb_run.py:_wait_for_finish():1616] got exit ret: 
+2025-05-28 10:27:01,863 INFO    MainThread:3060 [wandb_run.py:_wait_for_finish():1616] got exit ret: done: true
+exit_result {
+}
+
